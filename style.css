@@ -1,0 +1,227 @@
+@import url(https://fonts.google.com/specimen/Raleway);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ max-width: 1440px;
+    font-family: "Raleway", sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.as{
+    color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    background-color: aqua;
+}
+
+.allfiles{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: aqua;
+}
+.illustrate{
+    width: 250px;
+}
+.haa{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cost{
+    width: 150px;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 0.2rem;
+}
+
+button:hover{
+    opacity: 0.5;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.stay{
+    display: flex;
+    background-image: url(images/bg-curve-desktop.svg);
+    background-size: cover;
+    background-repeat: repeat, repeat;
+    background-color: hsl(240, 75%, 98%);
+    justify-content: space-between;
+    padding: 1rem;
+    
+
+}
+
+.test{
+    display: flex;
+    flex-direction:column ;
+    width: 500px;
+}
+
+.testimonial{
+    background-color: white;
+    width: 300px;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px;
+    margin-bottom: 3rem;
+}
+
+.avatar{
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.media{
+    display: flex;
+}
+
+.u{
+    color: aqua;
+}
+
+.getaccess{
+    background-color: hsl(238, 22%, 44%);
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.hthr{
+    width: 500px;
+}
+.hthree{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+
+.fly{
+    display: flex;
+    flex-direction: column;
+}
+
+.free{
+    width: 150px;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 0.2rem;
+}
+
+.example{
+    width: 300px;
+}
+
+footer{
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    padding: 2rem;
+    
+}
+.footer{
+    display: flex;
+    gap: 15rem;
+}
+.in{
+    color: white;
+}
+.a, .b, .c{
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 0.5rem;
+}
+
+@media screen and (max-width:500px) {
+    body{
+        width: 375px;
+    }
+ul{
+    gap: 0;
+    gap: 0.5rem;
+}
+.log{
+    width:70px ;
+}
+.allfiles{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.haa{
+    width: 300px;
+    text-align: center;
+    margin: 0px auto;
+}
+form{
+    flex-direction: column;
+}
+.stay{
+    background-image: url(images/bg-curve-mobile.svg);
+}
+.stay{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    
+}
+.man{
+    text-align: center;
+}
+.textme{
+    width: 250px;
+    margin: 0px auto;
+}
+
+.testimonial{
+    margin: 0px auto;
+    margin-top: 1rem;
+}
+.getaccess{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.joha{
+    width: 250px;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    flex-direction: column;
+    gap: 0;
+    gap: 1rem;
+    width: 100%;
+}
+.illustrate{
+   width: 50%;
+}
+}
